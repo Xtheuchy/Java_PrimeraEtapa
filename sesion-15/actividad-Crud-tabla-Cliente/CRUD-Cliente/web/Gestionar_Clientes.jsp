@@ -98,7 +98,7 @@
     <body>
         <h1>Gestión de Clientes</h1>
         <button class="agregar" onclick="document.getElementById('agregarCliente').showModal()"><i class="fa-solid fa-user-plus"></i> Agregar Cliente</button>
-        <dialog id="agregarCliente">
+        <dialog id="agregarCliente" class="">
             <h1>Registro de Clientes</h1>
             <form action="guardar.jsp">
                 <p>
